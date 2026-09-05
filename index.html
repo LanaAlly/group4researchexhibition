@@ -143,8 +143,9 @@
   p{color:var(--muted);margin:0 0 12px;text-align:justify;}
 
   .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
   .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
-  @media(max-width:720px){.grid-2,.grid-4{grid-template-columns:1fr;}}
+  @media(max-width:720px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr;}}
 
   .card{
     background:var(--card);
@@ -343,12 +344,16 @@
 
   <section id="scope">
     <h2>Scope of Study</h2>
-    <p>This study focuses on active TikTok Shop sellers operating in the retail and e-commerce industry in Malaysia. Data is collected through an online questionnaire distributed via WhatsApp and TikTok, examining sellers' experiences and perspectives on AI adoption and its role in business sustainability.</p>
+    <p>This study focuses on the retail and e-commerce industry in Malaysia, specifically targeting active sellers on TikTok Shop, one of the country's fastest-growing social commerce platforms. Data is collected through an online questionnaire hosted on Google Forms and distributed through digital channels such as WhatsApp and TikTok to reach respondents efficiently. Rather than covering every aspect of a seller's operations, the research is scoped around understanding how sellers experience and perceive AI adoption, the conditions that shape whether they take it up, and what that adoption ultimately means for environmental and business sustainability within the Malaysian social commerce landscape.</p>
   </section>
 
   <section id="significance">
     <h2>Significance of Study</h2>
-    <p>This research adds to the limited literature on AI adoption among small and medium retail sellers, most existing studies focus on large corporations. Practically, it helps sellers plan their AI investment more wisely and helps government agencies design better support programs that also promote environmental sustainability.</p>
+    <div class="grid-3">
+      <div class="card"><span class="tag">Theoretical</span><p>Adds to the growing body of research on AI adoption and sustainability by extending a stream of literature that has mostly focused on large corporations to small and medium retail and e-commerce sellers, linking adoption drivers such as cost, management support, employee skills, and government support to environmental and customer-facing outcomes.</p></div>
+      <div class="card"><span class="tag">Practical</span><p>Helps TikTok Shop sellers identify which factors matter most when deciding to adopt AI, so they can plan their investment more deliberately around what actually supports their sustainability goals and customer relationships. Also gives government agencies a clearer basis for designing support programmes and incentives.</p></div>
+      <div class="card"><span class="tag">Future Research</span><p>Provides a foundation for future studies extending this model to other e-commerce platforms or industries beyond TikTok Shop, and for exploring variables not covered here, such as cybersecurity or data privacy concerns in AI-driven retail.</p></div>
+    </div>
   </section>
 
   <section id="literature-review">
@@ -361,12 +366,12 @@
 
     <h3 style="margin-top:28px;">Variables of Study</h3>
     <div class="grid-2">
-      <div class="card var-card"><span class="tag">IV1</span><h3>AI Adoption</h3><p>The extent to which a business incorporates AI tools such as chatbots, product recommendation systems, and inventory management software into daily operations. Measured as a matter of degree rather than a simple yes/no decision.</p></div>
-      <div class="card var-card"><span class="tag">IV2</span><h3>Factors Influencing AI Adoption</h3><p>The organizational and environmental conditions that determine how readily a business adopts AI, including cost, management support, employee skills, and government support.</p></div>
-      <div class="card var-card"><span class="tag">IV3</span><h3>Customer Satisfaction and Trust</h3><p>How positively customers evaluate their experience with a business's AI-enabled tools, and how much confidence they place in those tools when making purchasing decisions.</p></div>
-      <div class="card var-card"><span class="tag">DV</span><h3>Environmental Sustainability</h3><p>A business's ability to reduce its negative impact on the environment, such as through reduced waste, more efficient resource use, and lower energy consumption, while remaining commercially viable.</p></div>
+      <div class="card var-card"><span class="tag">IV1</span><h3>AI Adoption</h3><p>The extent to which a business incorporates AI tools such as chatbots, personalised recommendation systems, and inventory management software into its daily operations. Rather than a simple yes-or-no decision, adoption is treated as a matter of degree, consistent with how Diffusion of Innovation theory describes new technology spreading gradually as sellers observe results achieved by their peers.</p></div>
+      <div class="card var-card"><span class="tag">IV2</span><h3>Factors Influencing AI Adoption</h3><p>The organizational and environmental conditions that shape whether a business adopts AI. Organizational factors include management support and employee technical skills; environmental factors include the cost of AI tools and the availability of government grants or training programmes. Together, grounded in the Technology-Organization-Environment framework, these conditions determine whether adoption translates into real benefits.</p></div>
+      <div class="card var-card"><span class="tag">IV3</span><h3>Customer Satisfaction and Trust</h3><p>How positively customers respond to a seller's AI-enabled tools, such as chatbots and personalised product recommendations, and how much confidence they place in those tools when deciding to buy. This captures the market-facing side of AI adoption, where customer approval is what allows continued investment in AI to pay off.</p></div>
+      <div class="card var-card"><span class="tag">DV</span><h3>Environmental Sustainability</h3><p>A business's ability to reduce its negative impact on the environment, through less wasted stock, more efficient use of resources, and lower energy consumption, while still remaining commercially viable. Because independently verified environmental data isn't available for small, individually run sellers, this study measures the construct through sellers' own reported perceptions.</p></div>
     </div>
-    <div class="card var-card" style="margin-top:16px;"><span class="tag">MODERATOR</span><h3>Demographic Profile</h3><p>Background characteristics of sellers (gender, age, type of business, years of experience) expected to influence the strength of the relationships above, rather than affecting environmental sustainability directly.</p></div>
+    <div class="card var-card" style="margin-top:16px;"><span class="tag">MODERATOR</span><h3>Demographic Profile</h3><p>Background characteristics of sellers, including gender, age, type of business, and years of business experience, expected to influence how strongly AI adoption and its related factors translate into environmental sustainability outcomes, rather than affecting sustainability directly on their own. Because TikTok Shop sellers in Malaysia are a highly varied group, this profile is tested as a moderator through multi-group analysis rather than treated as a simple background variable.</p></div>
   </section>
 
   <section id="methodology">
